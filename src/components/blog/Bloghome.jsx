@@ -3,6 +3,9 @@ import Slides from './footer/slides/Slides'
 import Card from './card.jsx'
 import Footer from './footer/footer.jsx'
 import Cardtwo from './Cardtwo.jsx'
+import blogcover from '../../assets/images/blogCover.jpg'
+import qrCode from '../../assets/images/qrcode.png'
+
 
 
 
@@ -16,8 +19,8 @@ const bloghome = () => {
         paraTwo:"Embracing Creativity and Authenticity",
         name:"Daniel Michaels",
         subTitle:"Founder, The Write Space",
-        qrCode:"./images/qrcode.png",
-        cover:'./images/blogCover.jpg'
+        qrCode:qrCode,
+        cover:blogcover
     }
   ]  
   return (
