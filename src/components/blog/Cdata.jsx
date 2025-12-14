@@ -1,9 +1,9 @@
-import card1 from '../../assets/images/card-1.jpg'
-import card2 from '../../assets/images/card-2.jpg'
-import card3 from '../../assets/images/card-3.jpg'
-import card4 from '../../assets/images/card-4.jpg'
-import card5 from '../../assets/images/card-5.jpg'
-import card6 from '../../assets/images/card-6.jpg'
+import card1 from '../../assets/optimized/card-1-800.webp'
+import card2 from '../../assets/optimized/card-2-800.webp'
+import card3 from '../../assets/optimized/card-3-800.webp'
+import card4 from '../../assets/optimized/card-4-800.webp'
+import card5 from '../../assets/optimized/card-5-800.webp'
+import card6 from '../../assets/optimized/card-6-800.webp'
 
 const Cdata = [
   {

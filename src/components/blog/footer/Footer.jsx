@@ -6,7 +6,7 @@ const footer = () => {
     <>
         <footer>
             <div className="para">
-                <p>© 2025 All rights reserved | Created by VicRuro </p>
+                <p>© 2025 All rights reserved | <a href="https://diemuodeke-victory.netlify.app/">Created by VicRuro</a> </p>
             </div>
             <div className="icon">
                 <a href="https://x.com/Vicruro" target='blank'><i className="fab fa-twitter"></i></a>

@@ -3,8 +3,8 @@ import Slides from './footer/slides/Slides'
 import Card from './card.jsx'
 import Footer from './footer/footer.jsx'
 import Cardtwo from './Cardtwo.jsx'
-import blogcover from '../../assets/images/blogCover.jpg'
-import qrCode from '../../assets/images/qrcode.png'
+import blogcover from '../../assets/optimized/blogCover-1200.webp'
+import qrCode from '../../assets/optimized/qrcode-200.webp'
 
 
 
