@@ -1,8 +1,8 @@
-import React from 'react'
-import Slides from './footer/slides/Slides'
+import React, { Suspense } from 'react'
+const Slides = React.lazy(() => import('./footer/slides/Slides'))
 import Card from './card.jsx'
 import Footer from './footer/footer.jsx'
-import Cardtwo from './Cardtwo.jsx'
+const Cardtwo = React.lazy(() => import('./Cardtwo.jsx'))
 import blogcover from '../../assets/optimized/blogCover-1200.webp'
 import qrCode from '../../assets/optimized/qrcode-200.webp'
 
@@ -55,12 +55,16 @@ const bloghome = () => {
                     })
                 }
             </div>
-            <div className="right-content">
-                <Slides/>
-                <Card/>
-                <Cardtwo/>
-                <Footer/>
-            </div>
+                        <div className="right-content">
+                                <Suspense fallback={<div className="loader">Loading slides…</div>}>
+                                    <Slides />
+                                </Suspense>
+                                <Card />
+                                <Suspense fallback={<div className="loader">Loading content…</div>}>
+                                    <Cardtwo />
+                                </Suspense>
+                                <Footer />
+                        </div>
 
         </section>
     </div>
